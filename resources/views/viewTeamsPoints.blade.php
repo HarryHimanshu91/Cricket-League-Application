@@ -5,6 +5,7 @@
 
 @section('content')
     <div class="container" style="margin-top:30px;">
+     
         <h2 style="text-align:center; margin-bottom:20px;"> List of Points - {{ $name }} </h2>
       
 

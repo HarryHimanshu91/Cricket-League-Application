@@ -63,6 +63,12 @@
     font-weight: bold;
     letter-spacing: 1px;
 }
+img.teamLogos {
+    width: 10%;
+}
+.col-md-12.mbottoms {
+    margin-bottom: 15px;
+}
   </style>
 </head>
 <body>

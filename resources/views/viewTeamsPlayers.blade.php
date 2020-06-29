@@ -4,9 +4,12 @@
 
 @section('content')
     <div class="container" style="margin-top:30px;">
-     
+    
         <h2 style="text-align:center; margin-bottom:20px;"> List of Players  </h2>
         <h2 style="text-align:center; margin-bottom:20px;"> <b> {{ $teams->name }} </b> </h2>
+        <div class="col-md-12 mbottoms">   <center> <img class="teamLogos" src="{{ asset('uploads/teams/'. $teams->logo ) }}"> </center> </div>
+      
+        <div class="col-md-12">
         <ul class="list-inline">
           
            @if(count($teams->players) > 0)
@@ -39,7 +42,7 @@
             </div>
             @endif
          </ul> 
-            
+            </div>
        
   
     </div>
